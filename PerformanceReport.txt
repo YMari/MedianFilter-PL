@@ -1,0 +1,36 @@
+||//////////////////////////////////////////////////////////////////////////////||
+|| To use filter, place an image in the filter, replace the current image at:   ||
+|| [src --> main --> scala --> inputImg.png]                                    ||
+|| and replace it with any image with the same name.                            ||
+||                                                                              ||
+|| MedianFilter found at: [src --> main --> scala --> MedianFilter.scala]       ||
+||                                                                              ||
+|| Sequential Median Filter output: outputImg1.png                              ||
+|| Parallel Median Filter output: outputImg2.png                                ||
+||//////////////////////////////////////////////////////////////////////////////||
+
+Report:
+The Median Filter is a non-linear digital filtering technique used to reduce noise from an image or signal. Using the
+general algorithm, this was achieved in the MedianFilter.scala file. In this implementation, we have both a sequential
+implementation and a parallel implementation. In the sequential implementation, the program goes through the whole
+image and rewrites it in one attempt, while in the parallel implementation, we divide the image into multiple segments
+(in this case, four equal parts) and run them simultaneously. The parallel implementation should be, in theory, four
+times faster than the sequential implementation, since it is running the filter four simultaneous times in this specific
+implementation. After running the file with multiple values of window size and analyzing their individual run-times, we
+can see that the parallel implementation is approximately 3.58 times faster on average than the sequential
+implementation. This means that parallel implementation is the faster and more efficient implementation at the cost of
+hardware performance, since it runs multiple iterations of the median filter method simultaneously.
+
+*I chose 4 partitions since my CPU has 4 cores.*
+
+Time Comparisons:
+---------------------------------------------------------------------------------------------------
+ Window Size | Sequential Time (seconds) | Parallel Time (seconds) | Approx. Parallel Times Faster
+---------------------------------------------------------------------------------------------------
+     5x5     |          0.60937          |         0.20046         |             3.04             |
+    10x10    |          2.40307          |         0.58860         |             4.08             |
+    20x20    |          10.96602         |         3.07270         |             3.57             |
+    30x30    |          28.49876         |         7.68789         |             3.71             |
+    40x40    |          58.51756         |         16.70684        |             3.50             |
+    50x50    |          106.51154        |         29.68401        |             3.59             |
+---------------------------------------------------------------------------------------------------

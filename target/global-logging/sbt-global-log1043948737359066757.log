@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\YAVIER~1\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\YAVIER~1\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.0 (Oracle Corporation Java 1.8.0_201)
+[debug]       Load.loadUnit: plugins took 112.0257ms
+[debug]       Load.loadUnit: defsScala took 0.5013ms
+[debug] [Loading] Scanning directory C:\Users\Yavier Mari\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Yavier Mari\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.2169 ms
+[debug]           Load.resolveProject(global-plugins) took 52.7535ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Yavier Mari\.sbt\1.0\plugins, plugins: List(<none>))) took 104.8864ms
+[debug] [Loading] Done in C:\Users\Yavier Mari\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 266.2459ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2956ms
+[debug]     Load.loadUnit(file:/C:/Users/Yavier%20Mari/.sbt/1.0/plugins/, ...) took 389.0062ms
+[debug]   Load.apply: load took 574.477ms
+[debug]   Load.apply: resolveProjects took 7.6413ms
+[debug]   Load.apply: finalTransforms took 68.1234ms
+[debug]   Load.apply: config.delegates took 11.0548ms
+[debug]   Load.apply: Def.make(settings)... took 897.843ms
+[debug]   Load.apply: structureIndex took 118.4774ms
+[debug]   Load.apply: mkStreams took 1.9529ms
+[info] loading global plugins from C:\Users\Yavier Mari\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3647.9062ms
+[debug]           Load.loadUnit: plugins took 24.7751ms
+[debug]           Load.loadUnit: defsScala took 0.0036ms
+[debug] [Loading] Scanning directory C:\Users\Yavier Mari\Downloads\Colegio\RUM 2020 - 2021\Primer Semestre\CIIC4030 (Programming Languages)\Assignments\A4_CIIC4030\project
+[debug]             Load.loadUnit: mkEval took 9.7822ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Yavier Mari\Downloads\Colegio\RUM 2020 - 2021\Primer Semestre\CIIC4030 (Programming Languages)\Assignments\A4_CIIC4030\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2141 ms
+[info] loading settings for project a4_ciic4030-build from idea.sbt ...
+[debug]               Load.resolveProject(a4_ciic4030-build) took 3.8026ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id a4_ciic4030-build, base: C:\Users\Yavier Mari\Downloads\Colegio\RUM 2020 - 2021\Primer Semestre\CIIC4030 (Programming Languages)\Assignments\A4_CIIC4030\project, plugins: List(<none>))) took 6.5725ms
+[debug] [Loading] Done in C:\Users\Yavier Mari\Downloads\Colegio\RUM 2020 - 2021\Primer Semestre\CIIC4030 (Programming Languages)\Assignments\A4_CIIC4030\project, returning: (a4_ciic4030-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2622.4574ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.4631ms
+[debug]         Load.loadUnit(file:/C:/Users/Yavier%20Mari/Downloads/Colegio/RUM%202020%20-%202021/Primer%20Semestre/CIIC4030%20(Programming%20Languages)/Assignments/A4_CIIC4030/project/, ...) took 2653.7927ms
+[debug]       Load.apply: load took 2655.4756ms
+[debug]       Load.apply: resolveProjects took 0.1873ms
+[debug]       Load.apply: finalTransforms took 20.4839ms
+[debug]       Load.apply: config.delegates took 0.5595ms
+[debug]       Load.apply: Def.make(settings)... took 109.3288ms
+[debug]       Load.apply: structureIndex took 29.5728ms
+[debug]       Load.apply: mkStreams took 0.0037ms
+[info] loading project definition from C:\Users\Yavier Mari\Downloads\Colegio\RUM 2020 - 2021\Primer Semestre\CIIC4030 (Programming Languages)\Assignments\A4_CIIC4030\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 8605.2385ms
+[debug]     Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\Yavier Mari\Downloads\Colegio\RUM 2020 - 2021\Primer Semestre\CIIC4030 (Programming Languages)\Assignments\A4_CIIC4030
+[debug]       Load.loadUnit: mkEval took 0.4577ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Yavier Mari\Downloads\Colegio\RUM 2020 - 2021\Primer Semestre\CIIC4030 (Programming Languages)\Assignments\A4_CIIC4030, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.6909 ms
+[info] loading settings for project a4_ciic4030 from build.sbt ...
+[debug]         Load.resolveProject(a4_ciic4030) took 43.1704ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id a4_ciic4030, base: C:\Users\Yavier Mari\Downloads\Colegio\RUM 2020 - 2021\Primer Semestre\CIIC4030 (Programming Languages)\Assignments\A4_CIIC4030, plugins: List(<none>))) took 47.3148ms
+[debug] [Loading] Done in C:\Users\Yavier Mari\Downloads\Colegio\RUM 2020 - 2021\Primer Semestre\CIIC4030 (Programming Languages)\Assignments\A4_CIIC4030, returning: (a4_ciic4030)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1426.8099ms
+[debug]     Load.loadUnit: cleanEvalClasses took 12.0952ms
+[debug]   Load.loadUnit(file:/C:/Users/Yavier%20Mari/Downloads/Colegio/RUM%202020%20-%202021/Primer%20Semestre/CIIC4030%20(Programming%20Languages)/Assignments/A4_CIIC4030/, ...) took 10044.7488ms
+[debug] Load.apply: load took 10046.3515ms
+[debug] Load.apply: resolveProjects took 0.1554ms
+[debug] Load.apply: finalTransforms took 28.5373ms
+[debug] Load.apply: config.delegates took 0.3412ms
+[debug] Load.apply: Def.make(settings)... took 66.8841ms
+[debug] Load.apply: structureIndex took 21.0817ms
+[debug] Load.apply: mkStreams took 0.0045ms
+[info] set current project to A4_CIIC4030 (in build file:/C:/Users/Yavier%20Mari/Downloads/Colegio/RUM%202020%20-%202021/Primer%20Semestre/CIIC4030%20(Programming%20Languages)/Assignments/A4_CIIC4030/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 58371 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 58371, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to A4_CIIC4030 (in build file:/C:/Users/Yavier%20Mari/Downloads/Colegio/RUM%202020%20-%202021/Primer%20Semestre/CIIC4030%20(Programming%20Languages)/Assignments/A4_CIIC4030/)
+[debug] > Exec(idea-shell, None, None)

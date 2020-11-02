@@ -1,0 +1,8 @@
+[debug] > Exec(runMain, None, None)
+[error] Not a valid command: runMain
+[error] Expected whitespace character
+[error] runMain
+[error]        ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
